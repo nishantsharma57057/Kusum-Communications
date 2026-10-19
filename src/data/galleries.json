@@ -1,0 +1,880 @@
+{
+  "homeGallery0": [
+    {
+      "src": "/wp-content/uploads/2026/07/NGG01068-1.webp",
+      "thumbnail": "/wp-content/uploads/2026/07/NGG01068-1-1024x683.webp",
+      "alt": "NGG01068 (1)"
+    },
+    {
+      "src": "/wp-content/uploads/2026/07/NGG01042-1.webp",
+      "thumbnail": "/wp-content/uploads/2026/07/NGG01042-1-1024x683.webp",
+      "alt": "NGG01042 (1)"
+    },
+    {
+      "src": "/wp-content/uploads/2026/07/NGG01865-1.webp",
+      "thumbnail": "/wp-content/uploads/2026/07/NGG01865-1-1024x683.webp",
+      "alt": "NGG01865 (1)"
+    },
+    {
+      "src": "/wp-content/uploads/2026/07/NGG01423-1.webp",
+      "thumbnail": "/wp-content/uploads/2026/07/NGG01423-1-1024x683.webp",
+      "alt": "NGG01423 (1)"
+    }
+  ],
+  "aboutGallery1": [
+    {
+      "src": "/wp-content/uploads/2026/07/NGG01068-1.webp",
+      "thumbnail": "/wp-content/uploads/2026/07/NGG01068-1-1024x683.webp",
+      "alt": "NGG01068 (1)"
+    },
+    {
+      "src": "/wp-content/uploads/2026/07/NGG01042-1.webp",
+      "thumbnail": "/wp-content/uploads/2026/07/NGG01042-1-1024x683.webp",
+      "alt": "NGG01042 (1)"
+    },
+    {
+      "src": "/wp-content/uploads/2026/07/NGG01865-1.webp",
+      "thumbnail": "/wp-content/uploads/2026/07/NGG01865-1-1024x683.webp",
+      "alt": "NGG01865 (1)"
+    },
+    {
+      "src": "/wp-content/uploads/2026/07/NGG01423-1.webp",
+      "thumbnail": "/wp-content/uploads/2026/07/NGG01423-1-1024x683.webp",
+      "alt": "NGG01423 (1)"
+    }
+  ],
+  "galleryGallery2": [
+    {
+      "src": "/wp-content/uploads/2026/03/DSC00634.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/DSC00634-200x300.webp",
+      "alt": "DSC00634"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/DSC00652.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/DSC00652-300x200.webp",
+      "alt": "DSC00652"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/DSC00736.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/DSC00736-200x300.webp",
+      "alt": "DSC00736"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/DSC00835.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/DSC00835-300x200.webp",
+      "alt": "DSC00835"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG00642.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG00642-300x200.webp",
+      "alt": "NGG00642"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG00665.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG00665-300x200.webp",
+      "alt": "NGG00665"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG00722.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG00722-300x200.webp",
+      "alt": "NGG00722"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG00731.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG00731-300x200.webp",
+      "alt": "NGG00731"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG00753.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG00753-300x200.webp",
+      "alt": "NGG00753"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG00962.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG00962-300x200.webp",
+      "alt": "NGG00962"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01032.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01032-300x200.webp",
+      "alt": "NGG01032"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01033.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01033-300x200.webp",
+      "alt": "NGG01033"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01042.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01042-300x200.webp",
+      "alt": "NGG01042"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01066.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01066-300x200.webp",
+      "alt": "NGG01066"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01086.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01086-200x300.webp",
+      "alt": "NGG01086"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01173.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01173-300x200.webp",
+      "alt": "NGG01173"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01183.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01183-200x300.webp",
+      "alt": "NGG01183"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01197.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01197-300x200.webp",
+      "alt": "NGG01197"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01204.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01204-200x300.webp",
+      "alt": "NGG01204"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01215.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01215-300x200.webp",
+      "alt": "NGG01215"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01225.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01225-300x200.webp",
+      "alt": "NGG01225"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01233.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01233-200x300.webp",
+      "alt": "NGG01233"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01266.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01266-300x200.webp",
+      "alt": "NGG01266"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01301.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01301-300x200.webp",
+      "alt": "NGG01301"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01377.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01377-200x300.webp",
+      "alt": "NGG01377"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01426.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01426-300x200.webp",
+      "alt": "NGG01426"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01594.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01594-300x200.webp",
+      "alt": "NGG01594"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01730.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01730-200x300.webp",
+      "alt": "NGG01730"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01847.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01847-300x200.webp",
+      "alt": "NGG01847"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01909.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01909-300x200.webp",
+      "alt": "NGG01909"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01951.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01951-300x200.webp",
+      "alt": "NGG01951"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG01970.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG01970-300x200.webp",
+      "alt": "NGG01970"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02160.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02160-300x200.webp",
+      "alt": "NGG02160"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02183.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02183-200x300.webp",
+      "alt": "NGG02183"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02196.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02196-200x300.webp",
+      "alt": "NGG02196"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02231.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02231-200x300.webp",
+      "alt": "NGG02231"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02325.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02325-200x300.webp",
+      "alt": "NGG02325"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02453.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02453-200x300.webp",
+      "alt": "NGG02453"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02494.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02494-300x200.webp",
+      "alt": "NGG02494"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02535.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02535-200x300.webp",
+      "alt": "NGG02535"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02580.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02580-300x200.webp",
+      "alt": "NGG02580"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG02764.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG02764-300x200.webp",
+      "alt": "NGG02764"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG07482.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG07482-300x200.webp",
+      "alt": "NGG07482"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG07913.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG07913-300x200.webp",
+      "alt": "NGG07913"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG07914.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG07914-300x200.webp",
+      "alt": "NGG07914"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/NGG08569.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/NGG08569-200x300.webp",
+      "alt": "NGG08569"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-06-at-10.10.57-AM.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-06-at-10.10.57-AM-200x300.webp",
+      "alt": "WhatsApp Image 2026-03-06 at 10.10.57 AM"
+    },
+    {
+      "src": "/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-06-at-10.10.58-AM.webp",
+      "thumbnail": "/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-06-at-10.10.58-AM-300x225.webp",
+      "alt": "WhatsApp Image 2026-03-06 at 10.10.58 AM"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_3952.JPG.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_3952.JPG-225x300.webp",
+      "alt": "IMG_3952.JPG"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_3995.JPG.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_3995.JPG-300x200.webp",
+      "alt": "IMG_3995.JPG"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_4001.JPG.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_4001.JPG-300x200.webp",
+      "alt": "IMG_4001.JPG"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_4036.JPG.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_4036.JPG-300x135.webp",
+      "alt": "IMG_4036.JPG"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_4408.JPG.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_4408.JPG-200x300.webp",
+      "alt": "IMG_4408.JPG"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_5062.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_5062-200x300.webp",
+      "alt": "IMG_5062"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_5241.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_5241-200x300.webp",
+      "alt": "IMG_5241"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_5251.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_5251-200x300.webp",
+      "alt": "IMG_5251"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_5499.JPG.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_5499.JPG-300x200.webp",
+      "alt": "IMG_5499.JPG"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_5709.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_5709-200x300.webp",
+      "alt": "IMG_5709"
+    },
+    {
+      "src": "/wp-content/uploads/2026/04/IMG_5955.webp",
+      "thumbnail": "/wp-content/uploads/2026/04/IMG_5955-300x200.webp",
+      "alt": "IMG_5955"
+    }
+  ],
+  "galleryGallery3": [
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09622-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09622-576x1024.webp",
+      "alt": "DSC09622"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09616-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09616-576x1024.webp",
+      "alt": "DSC09616"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09576-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09576-1024x576.webp",
+      "alt": "DSC09576"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09550-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09550-1024x576.webp",
+      "alt": "DSC09550"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09404-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09404-1024x576.webp",
+      "alt": "DSC09404"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09287-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09287-1024x576.webp",
+      "alt": "DSC09287"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09215-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09215-1024x576.webp",
+      "alt": "DSC09215"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09207-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09207-576x1024.webp",
+      "alt": "DSC09207"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09124-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09124-1024x576.webp",
+      "alt": "DSC09124"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09106-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09106-1024x576.webp",
+      "alt": "DSC09106"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09087-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09087-1024x576.webp",
+      "alt": "DSC09087"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09065-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09065-576x1024.webp",
+      "alt": "DSC09065"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC09038-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC09038-576x1024.webp",
+      "alt": "DSC09038"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08908-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08908-1024x576.webp",
+      "alt": "DSC08908"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08857-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08857-1024x576.webp",
+      "alt": "DSC08857"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08840-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08840-1024x576.webp",
+      "alt": "DSC08840"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08760-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08760-1024x576.webp",
+      "alt": "DSC08760"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08719-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08719-1024x576.webp",
+      "alt": "DSC08719"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08712-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08712-1024x576.webp",
+      "alt": "DSC08712"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08599-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08599-1024x576.webp",
+      "alt": "DSC08599"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08459-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08459-1024x576.webp",
+      "alt": "DSC08459"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08443-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08443-1024x576.webp",
+      "alt": "DSC08443"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08415-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08415-1024x576.webp",
+      "alt": "DSC08415"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC08381-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC08381-1024x576.webp",
+      "alt": "DSC08381"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07588-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07588-1024x684.webp",
+      "alt": "DSC07588"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07519-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07519-1024x684.webp",
+      "alt": "DSC07519"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07508-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07508-1024x684.webp",
+      "alt": "DSC07508"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07479-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07479-1024x684.webp",
+      "alt": "DSC07479"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07478-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07478-1024x684.webp",
+      "alt": "DSC07478"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07442-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07442-684x1024.webp",
+      "alt": "DSC07442"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07392-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07392-1024x684.webp",
+      "alt": "DSC07392"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07387-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07387-1024x684.webp",
+      "alt": "DSC07387"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07333-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07333-1024x684.webp",
+      "alt": "DSC07333"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07310-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07310-1024x684.webp",
+      "alt": "DSC07310"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07303-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07303-1024x684.webp",
+      "alt": "DSC07303"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07273-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07273-1024x684.webp",
+      "alt": "DSC07273"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07270-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07270-1024x684.webp",
+      "alt": "DSC07270"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07141-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07141-1024x684.webp",
+      "alt": "DSC07141"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC07140-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC07140-1024x684.webp",
+      "alt": "DSC07140"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06976-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06976-1024x684.webp",
+      "alt": "DSC06976"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06971-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06971-684x1024.webp",
+      "alt": "DSC06971"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06960-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06960-1024x684.webp",
+      "alt": "DSC06960"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06945-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06945-1024x684.webp",
+      "alt": "DSC06945"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06921-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06921-684x1024.webp",
+      "alt": "DSC06921"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06915-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06915-684x1024.webp",
+      "alt": "DSC06915"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06897-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06897-1024x684.webp",
+      "alt": "DSC06897"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06896-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06896-1024x684.webp",
+      "alt": "DSC06896"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06881-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06881-684x1024.webp",
+      "alt": "DSC06881"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06834-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06834-684x1024.webp",
+      "alt": "DSC06834"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06830-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06830-1024x684.webp",
+      "alt": "DSC06830"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06820-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06820-684x1024.webp",
+      "alt": "DSC06820"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06810-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06810-684x1024.webp",
+      "alt": "DSC06810"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06793-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06793-1024x684.webp",
+      "alt": "DSC06793"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06781-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06781-1024x684.webp",
+      "alt": "DSC06781"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06748-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06748-1024x684.webp",
+      "alt": "DSC06748"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06621-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06621-684x1024.webp",
+      "alt": "DSC06621"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06618-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06618-684x1024.webp",
+      "alt": "DSC06618"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06382-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06382-684x1024.webp",
+      "alt": "DSC06382"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06349-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06349-684x1024.webp",
+      "alt": "DSC06349"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06317-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06317-684x1024.webp",
+      "alt": "DSC06317"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/DSC06276-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/DSC06276-684x1024.webp",
+      "alt": "DSC06276"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/3333.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/3333-1024x768.webp",
+      "alt": "3333"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/55.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/55-768x1024.webp",
+      "alt": "55"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/33.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/33-1024x768.webp",
+      "alt": "33"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/22.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/22-768x1024.webp",
+      "alt": "22"
+    },
+    {
+      "src": "/wp-content/uploads/2025/11/21.webp",
+      "thumbnail": "/wp-content/uploads/2025/11/21-438x1024.webp",
+      "alt": "2(1)"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.49-PM.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.49-PM-1024x768.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.49-PM-2.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.49-PM-2-1024x766.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.49-PM-1.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.49-PM-1-888x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-5.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-5.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-4.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-4.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-3.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-3.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-2.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-2.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-1.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.48-PM-1.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.47-PM.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.19.47-PM-768x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.18.59-PM.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/WhatsApp-Image-2025-07-19-at-8.18.59-PM-768x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/unnamed-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/unnamed-683x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_20231130_162242-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_20231130_162242-484x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_20231130_205551-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_20231130_205551-1024x484.webp",
+      "alt": "IMG_20231130_205551"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_20231201_183624-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_20231201_183624-1024x484.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG-20230825-WA0011-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG-20230825-WA0011-1024x576.webp",
+      "alt": "IMG-20230825-WA0011"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG-20230827-WA0064.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG-20230827-WA0064-1024x576.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG-20231202-WA0208.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG-20231202-WA0208-1024x768.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG-20231202-WA0216.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG-20231202-WA0216-768x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG-20231203-WA0021.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG-20231203-WA0021-1024x461.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG-20231205-WA0068__01.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG-20231205-WA0068__01-1024x576.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG-20240113-WA0123-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG-20240113-WA0123-461x1024.webp",
+      "alt": "IMG-20240113-WA0123"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG-20240113-WA0138__01-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG-20240113-WA0138__01-1024x361.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG-20240113-WA0149.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG-20240113-WA0149-1024x768.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_20230825_111116-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_20230825_111116-1024x484.webp",
+      "alt": "IMG_20230825_111116"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_20230825_111622-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_20230825_111622-484x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_20231130_073645-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_20231130_073645-484x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_8900-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_8900-1024x683.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_8892-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_8892-1024x683.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_8868-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_8868-1024x683.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_8712-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_8712-1024x683.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_8541-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_8541-1024x683.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_8534-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_8534-1024x683.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_7743-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_7743-1024x683.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_7665-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_7665-1024x768.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_7631-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_7631-768x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_7609-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_7609-1024x768.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_7604-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_7604-1024x768.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_7592-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_7592-1024x768.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_7586-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_7586-768x1024.webp",
+      "alt": "Production photo"
+    },
+    {
+      "src": "/wp-content/uploads/2025/07/IMG_7568-scaled.webp",
+      "thumbnail": "/wp-content/uploads/2025/07/IMG_7568-1024x768.webp",
+      "alt": "Production photo"
+    }
+  ]
+}
