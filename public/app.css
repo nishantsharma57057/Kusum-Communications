@@ -6,7 +6,7 @@
 .contact-status{margin:14px 0 0;font-size:14px;line-height:1.5}.contact-status a{text-decoration:underline}
 @media(max-width:1024px){.react-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}@media(max-width:767px){.react-photo-grid{grid-template-columns:1fr!important;gap:10px!important}}
 
-/* Calm, spacious text carousel: enter from the right, then travel left. */
+/* Calm, spacious text carousel: start at the center, then travel left. */
 .feature-one{
   padding:clamp(48px,6vw,96px) 0;
   background:#fbfdfc;
@@ -24,8 +24,8 @@
   min-width:100%;
   align-items:center;
   gap:clamp(36px,5vw,96px);
-  transform:translateX(100vw);
-  animation:project-text-from-right 75s linear infinite;
+  transform:translateX(50vw);
+  animation:project-text-from-center 75s linear infinite;
   animation-play-state:paused;
 }
 .feature-one.is-running .feature-one__wrap{animation-play-state:running}
@@ -40,8 +40,8 @@
   letter-spacing:-.04em;
   margin:0 16px;
 }
-@keyframes project-text-from-right{
-  from{transform:translateX(100vw)}
+@keyframes project-text-from-center{
+  from{transform:translateX(50vw)}
   to{transform:translateX(-100%)}
 }
 @media(prefers-reduced-motion:reduce){
