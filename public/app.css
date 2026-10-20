@@ -6,12 +6,26 @@
 .contact-status{margin:14px 0 0;font-size:14px;line-height:1.5}.contact-status a{text-decoration:underline}
 @media(max-width:1024px){.react-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}@media(max-width:767px){.react-photo-grid{grid-template-columns:1fr!important;gap:10px!important}}
 
-/* Start the text carousel at the right edge when its section enters view. */
+/* Calm, spacious text carousel: enter from the right, then travel left. */
+.feature-one{
+  padding:clamp(48px,6vw,96px) 0;
+  background:#fbfdfc;
+  border-top:1px solid #e6efec;
+  border-bottom:1px solid #e6efec;
+}
+.feature-one::before,.feature-one::after{
+  width:clamp(32px,9vw,170px);
+  pointer-events:none;
+}
+.feature-one::before{background:linear-gradient(90deg,#fbfdfc,transparent)}
+.feature-one::after{background:linear-gradient(270deg,#fbfdfc,transparent)}
 .feature-one__wrap{
   width:max-content;
   min-width:100%;
+  align-items:center;
+  gap:clamp(36px,5vw,96px);
   transform:translateX(100vw);
-  animation:project-text-from-right 40s linear infinite;
+  animation:project-text-from-right 90s linear infinite;
   animation-play-state:paused;
 }
 .feature-one.is-running .feature-one__wrap{animation-play-state:running}
@@ -19,7 +33,15 @@
   animation:none!important;
   transform:none!important;
 }
-.feature-one__wrap:hover{animation-play-state:paused!important}
+.feature-one .feature-one__title{
+  color:#123a34;
+  font-size:clamp(44px,7.6vw,132px);
+  line-height:1.12;
+  letter-spacing:-.04em;
+  margin:0 16px;
+}
+.feature-one:hover .feature-one__wrap,
+.feature-one:focus-within .feature-one__wrap{animation-play-state:paused!important}
 @keyframes project-text-from-right{
   from{transform:translateX(100vw)}
   to{transform:translateX(-100%)}
@@ -27,5 +49,5 @@
 @media(prefers-reduced-motion:reduce){
   .feature-one__wrap{animation:none!important;transform:none;width:auto;white-space:normal;justify-content:center}
   .feature-one__wrap .feature-one__title-box + .feature-one__title-box{display:none}
-  .feature-one__title{white-space:normal}
+  .feature-one__title{white-space:normal;text-align:center}
 }
