@@ -40,8 +40,6 @@
   letter-spacing:-.04em;
   margin:0 16px;
 }
-.feature-one:hover .feature-one__wrap,
-.feature-one:focus-within .feature-one__wrap{animation-play-state:paused!important}
 @keyframes project-text-from-right{
   from{transform:translateX(100vw)}
   to{transform:translateX(-100%)}
