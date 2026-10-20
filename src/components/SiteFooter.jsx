@@ -7,7 +7,7 @@ export default function SiteFooter(){return (
             <div className={"col-xl-3 col-lg-6 col-md-6 wow fadeInUp"} data-wow-delay={"100ms"}>
               <div id={"block-20"} className={"footer-widget widget widget_block widget_media_image"}>
                 <figure className={"wp-block-image size-full is-resized footer-logo"}>
-                  <img data-lazyloaded={"1"} fetchPriority={"high"} decoding={"async"} width={"330"} height={"317"} alt={"Kusum Communications"} className={"wp-image-927"} style={{"width": "133px", "height": "auto"}} src={"/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp"} srcSet={"/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp 330w, /wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview-300x288.webp 300w"} sizes={"(max-width: 330px) 100vw, 330px"} />
+                  <img data-lazyloaded={"1"} fetchPriority={"high"} decoding={"async"} width={"330"} height={"317"} alt={""} className={"wp-image-927"} style={{"width": "133px", "height": "auto"}} src={"/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp"} srcSet={"/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp 330w, /wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview-300x288.webp 300w"} sizes={"(max-width: 330px) 100vw, 330px"} />
                 </figure>
               </div>
               <div id={"block-11"} className={"footer-widget widget widget_block"}>
@@ -27,17 +27,17 @@ export default function SiteFooter(){return (
                   </p>
                 </div>
                 <div className={"site-footer__social"}>
-                  <a href={"https://www.facebook.com/share/1EfnHR4Zwh/?mibextid=wwXIfr"} aria-label={"Kusum Communications on Facebook"}>
+                  <a href={"https://www.facebook.com/share/1EfnHR4Zwh/?mibextid=wwXIfr"}>
                     <i className={"fab fa-facebook-f"}>
 
                     </i>
                   </a>
-                  <a href={"https://www.instagram.com/kusumcommunications?igsh=eWZ5Mm5xeWxwbzBh"} aria-label={"Kusum Communications on Instagram"}>
+                  <a href={"https://www.instagram.com/kusumcommunications?igsh=eWZ5Mm5xeWxwbzBh"}>
                     <i className={"fab fa-instagram"}>
 
                     </i>
                   </a>
-                  <a href={"https://youtube.com/@kusumcommunications280?si=KyvZ7H01odGS4B_O"} aria-label={"Kusum Communications on YouTube"}>
+                  <a href={"https://youtube.com/@kusumcommunications280?si=KyvZ7H01odGS4B_O"}>
                     <i className={"fab fa-youtube"}>
 
                     </i>
@@ -103,8 +103,8 @@ export default function SiteFooter(){return (
                         {"Our Gallery"}
                       </a>
                     </li>
-                    <li id={"menu-item-731"} className={navClass("menu-item menu-item-type-custom menu-item-object-custom menu-item-731","/contact/")}>
-                      <a href={"/contact/"}>
+                    <li id={"menu-item-731"} className={navClass("menu-item menu-item-type-custom menu-item-object-custom menu-item-731","#")}>
+                      <a href={"#"}>
                         {"Contact Us"}
                       </a>
                     </li>
@@ -126,7 +126,7 @@ export default function SiteFooter(){return (
                   <li>
                     <div className={"footer-widget__gallery-img"}>
                       <img data-lazyloaded={"1"} decoding={"async"} alt={""} width={"2560"} height={"1920"} src={"/wp-content/uploads/2025/07/unnamed-1-scaled.webp"} />
-                      <a href={"https://www.instagram.com/kusumcommunications/"} aria-label={"View Kusum Communications on Instagram"}>
+                      <a href={"#"}>
                         <span className={"fab fa-instagram"}>
 
                         </span>
@@ -136,7 +136,7 @@ export default function SiteFooter(){return (
                   <li>
                     <div className={"footer-widget__gallery-img"}>
                       <img data-lazyloaded={"1"} decoding={"async"} alt={""} width={"1280"} height={"960"} src={"/wp-content/uploads/2025/07/IMG-20240113-WA0149.webp"} />
-                      <a href={"https://www.instagram.com/kusumcommunications/"} aria-label={"View Kusum Communications on Instagram"}>
+                      <a href={"#"}>
                         <span className={"fab fa-instagram"}>
 
                         </span>
@@ -146,7 +146,7 @@ export default function SiteFooter(){return (
                   <li>
                     <div className={"footer-widget__gallery-img"}>
                       <img data-lazyloaded={"1"} decoding={"async"} alt={""} width={"1280"} height={"720"} src={"/wp-content/uploads/2025/07/IMG-20231205-WA0068__01.webp"} />
-                      <a href={"https://www.instagram.com/kusumcommunications/"} aria-label={"View Kusum Communications on Instagram"}>
+                      <a href={"#"}>
                         <span className={"fab fa-instagram"}>
 
                         </span>
@@ -156,7 +156,7 @@ export default function SiteFooter(){return (
                   <li>
                     <div className={"footer-widget__gallery-img"}>
                       <img data-lazyloaded={"1"} decoding={"async"} alt={""} width={"1600"} height={"1200"} src={"/wp-content/uploads/2025/07/IMG-20231202-WA0208.webp"} />
-                      <a href={"https://www.instagram.com/kusumcommunications/"} aria-label={"View Kusum Communications on Instagram"}>
+                      <a href={"#"}>
                         <span className={"fab fa-instagram"}>
 
                         </span>
@@ -166,7 +166,7 @@ export default function SiteFooter(){return (
                   <li>
                     <div className={"footer-widget__gallery-img"}>
                       <img data-lazyloaded={"1"} decoding={"async"} alt={""} width={"2560"} height={"1209"} src={"/wp-content/uploads/2025/07/IMG_20231201_183624-scaled.webp"} />
-                      <a href={"https://www.instagram.com/kusumcommunications/"} aria-label={"View Kusum Communications on Instagram"}>
+                      <a href={"#"}>
                         <span className={"fab fa-instagram"}>
 
                         </span>

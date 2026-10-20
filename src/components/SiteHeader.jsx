@@ -7,11 +7,11 @@ export default function SiteHeader({variant}) {
           <div className={"main-menu__wrapper-inner"}>
             <div className={"main-menu__logo"}>
               <a href={"#home"}>
-                <img data-lazyloaded={"1"} style={{"width": "100px"}} alt={"Kusum Communications"} width={"330"} height={"317"} src={"/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp"} />
+                <img data-lazyloaded={"1"} style={{"width": "100px"}} alt={""} width={"330"} height={"317"} src={"/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp"} />
               </a>
             </div>
             <div className={"main-menu__main-menu-box"}>
-              <a href={"#"} className={"mobile-nav__toggler"} aria-label={"Open navigation"}>
+              <a href={"#"} className={"mobile-nav__toggler"}>
                 <i className={"fa fa-bars"}>
 
                 </i>
@@ -60,7 +60,7 @@ export default function SiteHeader({variant}) {
             </div>
             <div className={"main-menu__right"}>
               <div className={"main-menu__nav-sidebar-icon"}>
-                <a className={"navSidebar-button menu-tigger"} aria-label={"Open contact panel"} href={"#"}>
+                <a className={"navSidebar-button menu-tigger"} href={"#"}>
                   <span className={"icon-dots-menu"}>
 
                   </span>
@@ -80,7 +80,7 @@ export default function SiteHeader({variant}) {
       </nav>
       <div className={"extra-info"}>
         <div className={"close-icon menu-close"}>
-          <button aria-label={"Close contact panel"}>
+          <button>
             <i className={"far fa-window-close"}>
 
             </i>
@@ -88,7 +88,7 @@ export default function SiteHeader({variant}) {
         </div>
         <div id={"block-14"} className={"header-panel-nav-widget widget widget_block widget_media_image"}>
           <figure className={"wp-block-image size-full canvas-logo-custom"}>
-            <img data-lazyloaded={"1"} decoding={"async"} alt={"Kusum Communications"} className={"wp-image-13"} width={"106"} height={"27"} src={"/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp"} />
+            <img data-lazyloaded={"1"} decoding={"async"} alt={""} className={"wp-image-13"} width={"106"} height={"27"} src={"https://themedox.com/eston/wp-content/uploads/2023/08/logo-1.png"} />
           </figure>
         </div>
         <div id={"block-15"} className={"header-panel-nav-widget widget widget_block"}>
@@ -97,16 +97,14 @@ export default function SiteHeader({variant}) {
               {"About Us"}
             </h4>
             <p>
-              {"We bring stories to life through films, branded content, microdramas and memorable visual experiences."}
+              {"Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et magna aliqua. Ut enim ad minim veniam laboris."}
             </p>
           </div>
         </div>
         <div id={"block-16"} className={"header-panel-nav-widget widget widget_block"}>
-          <div className={"kc-panel-contact"}>
-            <a href={"mailto:kusumcommunications@gmail.com"}>kusumcommunications@gmail.com</a>
-            <a href={"tel:+919082054388"}>+91 90820 54388</a>
-            <a href={"/contact/"} className={"thm-btn"}>Let’s talk about your project</a>
-          </div>
+          <p>
+            {"[contact-form-7 id=\"d1b306e\" title=\"New Form 2\"]"}
+          </p>
         </div>
       </div>
       <div className={"offcanvas-overly"}>
@@ -119,7 +117,7 @@ export default function SiteHeader({variant}) {
         <div className={"main-header-three__top-inner"}>
           <ul className={"list-unstyled main-header-three__contact-info"}>
             <li>
-              <a href={"mailto:kusumcommunications@gmail.com"}>
+              <a href={"kusumcommunications@gmail.com"}>
                 {"\nkusumcommunications@gmail.com\n"}
               </a>
             </li>
@@ -147,11 +145,11 @@ export default function SiteHeader({variant}) {
           <div className={"main-menu-three__wrapper-inner"}>
             <div className={"main-menu-three__logo"}>
               <a href={"/"}>
-                <img data-lazyloaded={"1"} style={{"width": "100px"}} alt={"Kusum Communications"} width={"330"} height={"317"} src={"/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp"} />
+                <img data-lazyloaded={"1"} style={{"width": "100px"}} alt={""} width={"330"} height={"317"} src={"/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp"} />
               </a>
             </div>
             <div className={"main-menu-three__main-menu-box"}>
-              <a href={"#"} className={"mobile-nav__toggler"} aria-label={"Open navigation"}>
+              <a href={"#"} className={"mobile-nav__toggler"}>
                 <i className={"fa fa-bars"}>
 
                 </i>
@@ -200,7 +198,7 @@ export default function SiteHeader({variant}) {
             </div>
             <div className={"main-menu-three__right"}>
               <div className={"main-menu-three__nav-sidebar-icon"}>
-                <a className={"navSidebar-button menu-tigger"} aria-label={"Open contact panel"} href={"#"}>
+                <a className={"navSidebar-button menu-tigger"} href={"#"}>
                   <span className={"icon-dots-menu"}>
 
                   </span>
