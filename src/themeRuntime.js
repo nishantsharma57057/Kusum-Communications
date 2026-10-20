@@ -11,12 +11,41 @@ function loadScript(src) {
     document.body.append(script);
   });
 }
+
+let projectPlaybackInitialization;
+function initializeProjectVideoPlayback() {
+  if (projectPlaybackInitialization) return projectPlaybackInitialization;
+  projectPlaybackInitialization = (async () => {
+    const frames = [...document.querySelectorAll('iframe.elementor-video-iframe')]
+      .filter(frame => new URL(frame.src).origin === 'https://player.vimeo.com');
+    if (frames.length < 2) return;
+    if (!window.Vimeo?.Player) await loadScript('https://player.vimeo.com/api/player.js');
+    const playing = new Set();
+    frames.forEach(frame => {
+      const player = new window.Vimeo.Player(frame);
+      player.on('play', () => {
+        // Pause only players that actually started; lazy embeds must not receive
+        // a queued pause that could interrupt their first user-initiated play.
+        playing.forEach(other => {
+          if (other !== player) other.pause().catch(() => {});
+        });
+        playing.add(player);
+      });
+      player.on('pause', () => playing.delete(player));
+      player.on('ended', () => playing.delete(player));
+    });
+  })();
+  return projectPlaybackInitialization;
+}
+
 export function initializeTheme(scripts) {
   if (initialization) return initialization;
   initialization = (async () => {
     document.querySelectorAll('.e-con').forEach(el => el.classList.add('e-lazyloaded'));
-    document.querySelectorAll('iframe').forEach(el => { el.loading = 'lazy'; el.src = el.src.replace('autoplay=1', 'autoplay=0'); });
+    document.querySelectorAll('iframe').forEach(el => { el.loading = 'lazy'; const url = new URL(el.src); url.searchParams.set('autoplay', '0'); if (url.origin === 'https://player.vimeo.com') url.searchParams.set('autopause', '1'); if (el.src !== url.href) el.src = url.href; });
     document.querySelectorAll('a[href^="tel:"]').forEach(el => { el.href = 'tel:+919082054388'; });
+    // Video coordination is independent of theme animation initialization.
+    void initializeProjectVideoPlayback().catch(error => console.warn('Project video coordination unavailable:', error));
     for (const script of scripts) await loadScript(script);
     // These theme libraries normally initialize at WordPress page load. React has
     // rendered the same markup by this point, so signal the completed page here.
