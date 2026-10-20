@@ -910,9 +910,9 @@ export default function Home() {
                                         </div>
                                       </div>
                                       <div className={"elementor-element elementor-element-35ebc24 e-con-full e-flex e-con e-child"} data-id={"35ebc24"} data-element_type={"container"} data-e-type={"container"}>
-                                        <div className={"elementor-element elementor-element-ce252a7 elementor-widget__width-initial animated-slow elementor-invisible elementor-widget elementor-widget-video"} data-id={"ce252a7"} data-element_type={"widget"} data-e-type={"widget"} data-settings={"{\"video_type\":\"vimeo\",\"autoplay\":\"yes\",\"yt_privacy\":\"yes\",\"_animation\":\"rotateInUpRight\"}"} data-widget_type={"video.default"}>
+                                        <div className={"elementor-element elementor-element-ce252a7 elementor-widget__width-initial animated-slow elementor-invisible elementor-widget elementor-widget-video"} data-id={"ce252a7"} data-element_type={"widget"} data-e-type={"widget"} data-settings={"{\"video_type\":\"vimeo\",\"autoplay\":\"no\",\"yt_privacy\":\"yes\",\"_animation\":\"rotateInUpRight\"}"} data-widget_type={"video.default"}>
                                           <div className={"elementor-wrapper elementor-open-inline"}>
-                                            <iframe data-lazyloaded={"1"} className={"elementor-video-iframe"} allowFullScreen={true} allow={"autoplay"} title={"vimeo Video Player"} src={"https://player.vimeo.com/video/1198488716?autoplay=1&color&autopause=0&dnt=true&loop=0&muted=0&title=0&portrait=0&byline=1#t="}>
+                                            <iframe data-lazyloaded={"1"} className={"elementor-video-iframe"} allowFullScreen={true} allow={"fullscreen; picture-in-picture"} title={"vimeo Video Player"} src={"https://player.vimeo.com/video/1198488716?autoplay=0&color&autopause=0&dnt=true&loop=0&muted=0&title=0&portrait=0&byline=1#t="}>
 
                                             </iframe>
                                           </div>
