@@ -38,9 +38,28 @@ function initializeProjectVideoPlayback() {
   return projectPlaybackInitialization;
 }
 
+
+function initializeTextCarousels() {
+  const sections = document.querySelectorAll('.feature-one');
+  if (!('IntersectionObserver' in window)) {
+    sections.forEach(section => section.classList.add('is-running'));
+    return;
+  }
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-running');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1 });
+  sections.forEach(section => observer.observe(section));
+}
+
 export function initializeTheme(scripts) {
   if (initialization) return initialization;
   initialization = (async () => {
+    initializeTextCarousels();
     document.querySelectorAll('.e-con').forEach(el => el.classList.add('e-lazyloaded'));
     document.querySelectorAll('iframe').forEach(el => { el.loading = 'lazy'; const url = new URL(el.src); url.searchParams.set('autoplay', '0'); if (url.origin === 'https://player.vimeo.com') url.searchParams.set('autopause', '1'); if (el.src !== url.href) el.src = url.href; });
     document.querySelectorAll('a[href^="tel:"]').forEach(el => { el.href = 'tel:+919082054388'; });

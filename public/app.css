@@ -5,3 +5,27 @@
 .react-photo-grid a:hover img{transform:scale(1.05)}
 .contact-status{margin:14px 0 0;font-size:14px;line-height:1.5}.contact-status a{text-decoration:underline}
 @media(max-width:1024px){.react-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}@media(max-width:767px){.react-photo-grid{grid-template-columns:1fr!important;gap:10px!important}}
+
+/* Start the text carousel at the right edge when its section enters view. */
+.feature-one__wrap{
+  width:max-content;
+  min-width:100%;
+  transform:translateX(100vw);
+  animation:project-text-from-right 40s linear infinite;
+  animation-play-state:paused;
+}
+.feature-one.is-running .feature-one__wrap{animation-play-state:running}
+.feature-one__wrap .feature-one__title-box{
+  animation:none!important;
+  transform:none!important;
+}
+.feature-one__wrap:hover{animation-play-state:paused!important}
+@keyframes project-text-from-right{
+  from{transform:translateX(100vw)}
+  to{transform:translateX(-100%)}
+}
+@media(prefers-reduced-motion:reduce){
+  .feature-one__wrap{animation:none!important;transform:none;width:auto;white-space:normal;justify-content:center}
+  .feature-one__wrap .feature-one__title-box + .feature-one__title-box{display:none}
+  .feature-one__title{white-space:normal}
+}
