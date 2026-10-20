@@ -25,7 +25,7 @@
   align-items:center;
   gap:clamp(36px,5vw,96px);
   transform:translateX(100vw);
-  animation:project-text-from-right 90s linear infinite;
+  animation:project-text-from-right 75s linear infinite;
   animation-play-state:paused;
 }
 .feature-one.is-running .feature-one__wrap{animation-play-state:running}
