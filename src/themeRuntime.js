@@ -96,3 +96,9 @@ export function initializeTheme(scripts) {
   })();
   return initialization;
 }
+
+// The React homepage needs video coordination and the marquee, not legacy theme plugins.
+export async function initializeHomeExperience() {
+  initializeTextCarousels();
+  await initializeProjectVideoPlayback();
+}
