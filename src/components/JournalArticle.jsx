@@ -104,49 +104,5 @@ export default function JournalArticle(){return <div className="kc-article-prose
                       <p className={"wp-block-paragraph"}>
                         {"The 255-million-view milestone may therefore be less a destination than a starting point for what comes next."}
                       </p>
-                      <h2 className={"wp-block-heading"}>
-                        {"Media Coverage"}
-                      </h2>
-                      <p className={"wp-block-paragraph"}>
-                        {"The journey of Ritu Vaidya and Kusum Communications has been featured across leading Indian business, news and media platforms. Read the published coverage below:"}
-                      </p>
-                      <p className={"wp-block-paragraph"}>
-                        <a href={"https://outlookbusiness.com/spotlight/news-wire/from-corporate-boardrooms-to-250-million-plus-views-producer-ritu-vaidya-builds-kusum-communications-into-a-leading-vertical-drama-studio"} target={"_blank"} rel={"noopener nofollow"}>
-                          {"Outlook Business — Read the full story"}
-                        </a>
-                      </p>
-                      <p className={"wp-block-paragraph"}>
-                        <a href={"https://m.thewire.in/article/ptiprnews/from-corporate-boardrooms-to-250-million-views-producer-ritu-vaidya-builds-kusum-communications-into-a-leading-vertical-drama-studio?utm_source=chatgpt.com"} target={"_blank"} rel={"noopener nofollow"}>
-                          {"The Wire — Read the full story"}
-                        </a>
-                      </p>
-                      <p className={"wp-block-paragraph"}>
-                        <a href={"https://www.ptinews.com/press-release/from-corporate-boardrooms-to-250-million-views-producer-ritu-vaidya-builds-kusum-communications-into-a-leading-vertical-drama-studio/3990156?utm_source=chatgpt.com"} target={"_blank"} rel={"noopener nofollow"}>
-                          {"Press Trust of India — Read the press release"}
-                        </a>
-                      </p>
-                      <p className={"wp-block-paragraph"}>
-                        <a href={"https://www.tribuneindia.com/news/business/from-corporate-boardrooms-to-250-million-views-producer-ritu-vaidya-builds-kusum-communications-into-a-leading-vertical-drama-studio/"} target={"_blank"} rel={"noopener nofollow"}>
-                          {"The Tribune — Read the full story"}
-                        </a>
-                      </p>
-                      <p className={"wp-block-paragraph"}>
-                        <a href={"https://m.dailyhunt.in/news/india/english/ahmedabad%2Bmirror-epaper-ahdbdmr/from%2Bcorporate%2Bboardrooms%2Bto%2B250%2Bmillion%2Bviews%2Bproducer%2Britu%2Bvaidya%2Bbuilds%2Bkusum%2Bcommunications%2Binto%2Ba%2Bleading%2Bvertical%2Bdrama%2Bstudio-newsid-n724154659?utm_source=chatgpt.com"} target={"_blank"} rel={"noopener nofollow"}>
-                          {"Dailyhunt — Read the full story"}
-                        </a>
-                      </p>
-                      <p className={"wp-block-paragraph"}>
-                        <a href={"https://businessvoicenow.com/from-corporate-boardrooms-to-250-million-plus-views-producer-ritu-vaidya-builds-kusum-communications-into-a-leading-vertical-drama-studio/?utm_source=chatgpt.com"} target={"_blank"} rel={"noopener nofollow"}>
-                          {"Business Voice Now — Read the full story"}
-                        </a>
-                      </p>
-                      <p className={"wp-block-paragraph"}>
-                        <a href={"https://dailybulletin.co.in/index.php/business/from-corporate-boardrooms-to-250-million-plus-views-producer-ritu-vaidya-builds-kusum-communications-into-a-leading-vertical-drama-studio/?utm_source=chatgpt.com"} target={"_blank"} rel={"noopener nofollow"}>
-                          {"Daily Bulletin — Read the full story"}
-                        </a>
-                      </p>
-                      <p className={"wp-block-paragraph"}>
-
-                      </p>
 
 </div>;}
