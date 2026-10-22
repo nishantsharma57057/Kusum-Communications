@@ -34,19 +34,30 @@ export function HeroSlider() {
   </section>;
 }
 export function PosterCarousel({ names }) {
-  const [active, setActive] = useState(0);
+  // Absolute positions keep the same cards mounted as they move through the view.
+  const [position, setPosition] = useState(0);
   const touchStart = useRef(null);
+  const moving = useRef(false);
+  const unlock = useRef(null);
   const count = showcase.posters.length;
-  const move = delta => setActive(value => (value + delta + count) % count);
-  const offset = index => {
-    let difference = (index - active + count) % count;
-    if (difference > count / 2) difference -= count;
-    return difference;
+  const active = ((position % count) + count) % count;
+  useEffect(() => () => clearTimeout(unlock.current), []);
+  const move = delta => {
+    if (moving.current) return;
+    moving.current = true;
+    setPosition(value => value + Math.sign(delta));
+    unlock.current = setTimeout(() => { moving.current = false; }, 560);
   };
+  const slots = Array.from({ length: 7 }, (_, index) => position + index - 3);
   return <div className="kc-coverflow" role="region" aria-label="Original productions" aria-roledescription="carousel">
-    <div className="kc-coverflow-stage" tabIndex={0} aria-label="Use left and right arrow keys or swipe to browse productions" onKeyDown={event => { if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); move(event.key === 'ArrowLeft' ? -1 : 1); } }} onTouchStart={event => {touchStart.current = event.touches[0].clientX;}} onTouchEnd={event => { if (touchStart.current === null) return; const distance = touchStart.current - event.changedTouches[0].clientX; if (Math.abs(distance) > 45) move(distance > 0 ? 1 : -1); touchStart.current = null; }}>
-      {showcase.posters.map((src, index) => { const distance = offset(index); return <button key={src} className={'kc-coverflow-card' + (distance === 0 ? ' is-active' : '')} style={{'--offset':distance, '--depth':Math.abs(distance), zIndex:count - Math.abs(distance)}} hidden={Math.abs(distance) > 2} tabIndex={-1} aria-label={`Show ${names[index]}`} onClick={() => setActive(index)}><img src={src} alt={`${names[index]} poster`} width="300" height="450" loading="lazy" /></button>; })}
+    <div className="kc-coverflow-stage" tabIndex={0} aria-label="Use left and right arrow keys or swipe to browse productions" onKeyDown={event => { if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') { event.preventDefault(); move(event.key === 'ArrowLeft' ? -1 : 1); } }} onTouchStart={event => { touchStart.current = { x:event.touches[0].clientX, y:event.touches[0].clientY }; }} onTouchCancel={() => { touchStart.current = null; }} onTouchEnd={event => { if (!touchStart.current) return; const dx = touchStart.current.x - event.changedTouches[0].clientX; const dy = touchStart.current.y - event.changedTouches[0].clientY; if (Math.abs(dx) > 45 && Math.abs(dx) > Math.abs(dy)) move(dx > 0 ? 1 : -1); touchStart.current = null; }}>
+      {slots.map(slot => {
+        const index = ((slot % count) + count) % count;
+        const distance = slot - position;
+        const outside = Math.abs(distance) > 2;
+        return <button key={slot} className={'kc-coverflow-card' + (distance === 0 ? ' is-active' : '')} style={{ '--offset':distance, '--depth':Math.abs(distance), zIndex:count-Math.abs(distance), opacity:outside ? 0 : 1, pointerEvents:outside ? 'none' : 'auto' }} tabIndex={-1} aria-hidden={outside} aria-label={`Show ${names[index]}`} onClick={() => { if (distance) move(distance); }}><img src={showcase.posters[index]} alt={`${names[index]} poster`} width="300" height="450" decoding="async" draggable={false} /></button>;
+      })}
     </div>
-    <div className="kc-coverflow-bottom kc-shell"><div className="kc-coverflow-caption" aria-live="polite"><span>ORIGINAL PRODUCTION / {String(active + 1).padStart(2,'0')}</span><h3>{names[active]}</h3></div><div className="kc-controls"><button onClick={() => move(-1)} aria-label="Previous production">←</button><span>{active + 1} / {count}</span><button onClick={() => move(1)} aria-label="Next production">→</button></div></div>
+    <div className="kc-coverflow-bottom kc-shell"><div className="kc-coverflow-caption" aria-live="polite"><span>ORIGINAL PRODUCTION / {String(active+1).padStart(2,'0')}</span><h3>{names[active]}</h3></div><div className="kc-controls"><button onClick={() => move(-1)} aria-label="Previous production">←</button><span>{active+1} / {count}</span><button onClick={() => move(1)} aria-label="Next production">→</button></div></div>
   </div>;
 }

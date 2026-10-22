@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import SiteHeader from '../components/SiteHeader.jsx';
 import SiteFooter from '../components/SiteFooter.jsx';
+import JournalNotice from '../components/JournalNotice.jsx';
 import { HeroSlider, PosterCarousel } from '../components/StudioSliders.jsx';
 import showcase from '../data/showcase.json';
 import galleries from '../data/galleries.json';
@@ -52,5 +53,6 @@ export default function Home() {
       <section id="brief" className="kc-section kc-enquiry"><div className="kc-shell kc-enquiry-grid"><div><p className="kc-eyebrow">07 / Let’s collaborate</p><h2>Tell us what<br /><em>you have in mind.</em></h2><p>A film, a series, a brand story—or an idea waiting to take shape. We’d love to hear it.</p><a className="kc-text-link" href="tel:+919082054388">Prefer a conversation? +91 90820 54388 ↗</a></div><BriefForm /></div></section>
     </main>
     <SiteFooter />
+    <JournalNotice />
   </div>;
 }
