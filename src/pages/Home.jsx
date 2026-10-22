@@ -1,6 +1,7 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import SiteHeader from '../components/SiteHeader.jsx';
 import SiteFooter from '../components/SiteFooter.jsx';
+import { HeroSlider, PosterCarousel } from '../components/StudioSliders.jsx';
 import showcase from '../data/showcase.json';
 import galleries from '../data/galleries.json';
 
@@ -34,22 +35,14 @@ function BriefForm() {
   </form>;
 }
 export default function Home() {
-  const rail = useRef(null);
   const [review, setReview] = useState(1);
   const current = showcase.reviews[review];
-  const moveRail = direction => rail.current?.scrollBy({ left: direction * rail.current.clientWidth * .75, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   return <div className="kc-home">
     <SiteHeader />
     <main id="main-content">
-      <section className="kc-hero">
-        <div className="kc-shell kc-hero-grid">
-          <div className="kc-hero-copy"><p className="kc-eyebrow"><span className="kc-live-dot" />Independent minds. Unforgettable stories.</p><h1>We create stories<br />that <em>stay<br className="kc-desktop-break" /> with you.</em></h1><p className="kc-hero-intro">A creative production studio turning your ideas into films, microdramas and branded content. From the first thought to the final frame.</p><div className="kc-actions"><a className="kc-button" href="#projects">Explore our work <span aria-hidden="true">↘</span></a><a className="kc-text-link" href="#brief">Tell us your idea ↗</a></div></div>
-          <div className="kc-hero-art"><div className="kc-frame-label"><span>THE KUSUM COLLECTION</span><span>01 — 14</span></div><a className="kc-poster-composition" href="#productions" aria-label="Explore our original productions"><img className="kc-poster-left" src={showcase.posters[0]} alt="Madchef Maddy poster" width="300" height="450" /><img className="kc-poster-right" src={showcase.posters[2]} alt="Chhupa Rustom poster" width="300" height="450" /><img className="kc-poster-front" src={showcase.posters[3]} alt="Coolie Ki Diamond Dulhaniya poster" width="300" height="450" fetchPriority="high" /><span className="kc-round-link" aria-hidden="true">↗</span></a><p className="kc-art-caption">Original stories. Real emotion. Every screen.</p></div>
-        </div>
-        <div className="kc-shell kc-hero-bottom"><p>MUMBAI <span>·</span> DELHI <span>·</span> HYDERABAD</p><a href="#productions">Scroll to discover <span aria-hidden="true">↓</span></a></div>
-      </section>
+      <HeroSlider />
+      <section id="productions" className="kc-section kc-productions"><div className="kc-shell kc-section-head"><div><p className="kc-eyebrow">01 / Original productions</p><h2>Made to keep<br /><em>you watching.</em></h2></div><div className="kc-head-aside"><p>Big emotions. Unexpected turns. Explore our original productions—swipe or use the arrows.</p></div></div><PosterCarousel names={posterNames} /></section>
       <section className="kc-stats" aria-label="Our impact"><div className="kc-shell kc-stats-grid"><div><strong>250M<span>+</span></strong><p>Cumulative views across our productions</p></div><div><strong>14<span>+</span></strong><p>Original productions across genres</p></div><div><strong>100M<span>+</span></strong><p>Views for Coolie Ki Diamond Dulhaniya in under two months</p></div></div></section>
-      <section id="productions" className="kc-section kc-productions"><div className="kc-shell kc-section-head"><div><p className="kc-eyebrow">01 / Original productions</p><h2>Made to keep<br /><em>you watching.</em></h2></div><div className="kc-head-aside"><p>Big emotions. Unexpected turns. Discover the stories we’ve brought to life.</p><div className="kc-controls"><button onClick={() => moveRail(-1)} aria-label="Scroll productions left">←</button><button onClick={() => moveRail(1)} aria-label="Scroll productions right">→</button></div></div></div><div className="kc-poster-rail" ref={rail} tabIndex={0} aria-label="Original production posters, scroll horizontally">{showcase.posters.map((src, index) => <figure key={src}><img src={src} alt={`${posterNames[index]} poster`} loading="lazy" width="300" height="450" /><figcaption><span>{String(index + 1).padStart(2, '0')}</span>{posterNames[index]}</figcaption></figure>)}</div></section>
       <section id="projects" className="kc-section kc-work"><div className="kc-shell"><div className="kc-section-head"><div><p className="kc-eyebrow">02 / Our projects</p><h2>Let the work<br /><em>do the talking.</em></h2></div><div className="kc-head-aside"><p>Brand stories, corporate films and visual experiences. Press play to explore our work.</p><a className="kc-text-link" href="#brief">Create something with us ↗</a></div></div><div className="kc-video-grid">{showcase.videos.map((id, i) => <article className="kc-film" key={id}><div className="kc-video-frame"><iframe className="elementor-video-iframe" src={`https://player.vimeo.com/video/${id}?autoplay=0&autopause=1&dnt=true&loop=0&muted=0&title=1&portrait=0&byline=0`} title={`Kusum Communications project film ${i + 1}`} loading="lazy" allow="fullscreen; picture-in-picture" allowFullScreen /></div><div className="kc-film-caption"><span>PROJECT FILM / {String(i + 1).padStart(2, '0')}</span><span>Creative direction & production</span></div></article>)}</div></div></section>
       <section className="feature-one kc-marquee" aria-label="Our services"><div className="feature-one__wrap"><div className="feature-one__title-box"><p className="feature-one__title">Our Services <span aria-hidden="true">✳</span></p></div><div className="feature-one__title-box" aria-hidden="true"><p className="feature-one__title">Our Services <span>✳</span></p></div></div></section>
       <section className="kc-section kc-services"><div className="kc-shell kc-services-layout"><div className="kc-services-intro"><p className="kc-eyebrow">03 / What we do</p><h2>Your vision.<br />Our craft.<br /><em>One team.</em></h2><p>Storytelling, creative direction and production, connected from concept to delivery.</p><a className="kc-text-link" href="/services/">Explore all services ↗</a></div><div className="kc-service-list">{services.map(([title, tagline, text], index) => <details key={title} open={index === 0 ? true : undefined}><summary><span className="kc-service-number">0{index + 1}</span><h3>{title}</h3><span className="kc-service-plus" aria-hidden="true">+</span></summary><div className="kc-service-body"><h4>{tagline}</h4><p>{text}</p><a href="#brief">Discuss your project ↗</a></div></details>)}</div></div></section>
