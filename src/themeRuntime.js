@@ -18,11 +18,29 @@ function initializeProjectVideoPlayback() {
   projectPlaybackInitialization = (async () => {
     const frames = [...document.querySelectorAll('iframe.elementor-video-iframe')]
       .filter(frame => new URL(frame.src).origin === 'https://player.vimeo.com');
-    if (frames.length < 2) return;
+    if (!frames.length) return;
     if (!window.Vimeo?.Player) await loadScript('https://player.vimeo.com/api/player.js');
     const playing = new Set();
+    const players = new Map();
+    const isOffscreen = frame => {
+      const rect = frame.getBoundingClientRect();
+      return rect.bottom <= 0 || rect.top >= window.innerHeight ||
+        rect.right <= 0 || rect.left >= window.innerWidth;
+    };
+    const observer = 'IntersectionObserver' in window
+      ? new IntersectionObserver(entries => {
+          entries.forEach(entry => {
+            const player = players.get(entry.target);
+            if (!entry.isIntersecting && playing.has(player)) {
+              player.pause().catch(() => {});
+            }
+          });
+        }, { threshold: 0 })
+      : null;
     frames.forEach(frame => {
       const player = new window.Vimeo.Player(frame);
+      players.set(frame, player);
+      observer?.observe(frame);
       player.on('play', () => {
         // Pause only players that actually started; lazy embeds must not receive
         // a queued pause that could interrupt their first user-initiated play.
@@ -30,6 +48,8 @@ function initializeProjectVideoPlayback() {
           if (other !== player) other.pause().catch(() => {});
         });
         playing.add(player);
+        // A delayed play event can arrive after the user has already scrolled away.
+        if (isOffscreen(frame)) player.pause().catch(() => {});
       });
       player.on('pause', () => playing.delete(player));
       player.on('ended', () => playing.delete(player));
