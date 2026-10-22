@@ -6,13 +6,6 @@ export default function PhotoGallery({ items }) {
   const opener = useRef(null);
   const [active, setActive] = useState(null);
   useLayoutEffect(() => {
-    const settings = JSON.parse(grid.current.closest('[data-settings]')?.dataset.settings || '{}');
-    const columns = settings.columns || (items.length <= 4 ? 2 : 4);
-    grid.current.style.setProperty('--photo-columns', columns);
-    grid.current.style.setProperty('--photo-gap', `${settings.gap?.size ?? 10}px`);
-    grid.current.style.setProperty('--photo-ratio', (settings.aspect_ratio || '3:2').replace(':', '/'));
-  }, [items]);
-  useLayoutEffect(() => {
     if (active === null) return;
     dialog.current.showModal();
     const previous = document.body.style.overflow;
@@ -22,7 +15,7 @@ export default function PhotoGallery({ items }) {
   const move = offset => setActive(index => (index + offset + items.length) % items.length);
   const close = () => { dialog.current.close(); setActive(null); opener.current?.focus(); };
   return <>
-    <div className="elementor-gallery__container react-photo-grid" ref={grid}>
+    <div className="elementor-gallery__container react-photo-grid" ref={grid} style={{'--photo-columns': items.length <= 4 ? 2 : 4, '--photo-ratio': '3/2'}}>
       {items.map((item, index) => <a key={`${item.src}-${index}`} className="e-gallery-item elementor-gallery-item elementor-animated-content" href={item.src} aria-label={`Enlarge photo: ${item.alt}`} onClick={event => { event.preventDefault(); opener.current = event.currentTarget; setActive(index); }}>
         <div className="e-gallery-image elementor-gallery-item__image"><img src={item.thumbnail} alt={item.alt} loading="lazy" decoding="async" /></div>
         <div className="elementor-gallery-item__overlay" />

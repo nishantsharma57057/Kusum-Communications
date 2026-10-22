@@ -5,7 +5,8 @@ import Services from '../src/pages/Services.jsx';
 import Gallery from '../src/pages/Gallery.jsx';
 import Story from '../src/pages/Story.jsx';
 import Contact from '../src/pages/Contact.jsx';
-const pages = { Home, About, Services, Gallery, Story, Contact };
+import VerticalDrama from '../src/pages/VerticalDrama.jsx';
+const pages = { Home, About, Services, Gallery, Story, Contact, VerticalDrama };
 for (const [name, Page] of Object.entries(pages)) {
   globalThis.window = { location: { pathname: '/' } };
   const html = renderToStaticMarkup(<Page />);

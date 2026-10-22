@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "build": "node scripts/prepare-html.mjs && vite build && vite build --ssr scripts/prerender.jsx --outDir .prerender && node .prerender/prerender.js && node scripts/verify-seo.mjs",
     "preview": "vite preview --host 0.0.0.0",
-    "check:render": "vite build --ssr scripts/verify-render.jsx --outDir .verification && node .verification/verify-render.js"
+    "check:render": "vite build --ssr scripts/verify-render.jsx --outDir .verification && node .verification/verify-render.js",
+    "check:seo": "node scripts/verify-seo.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

@@ -1,10 +1,13 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import services from '../data/services.json';
 
 export default function ContactForm() {
   const [draft, setDraft] = useState('');
-  const requested = typeof window === 'undefined' ? '' : new URLSearchParams(window.location.search).get('service') || '';
-  const selectedService = services.some(item => item.title === requested) ? requested : '';
+  const [selectedService, setSelectedService] = useState('');
+  useEffect(() => {
+    const requested = new URLSearchParams(window.location.search).get('service') || '';
+    if (services.some(item => item.title === requested)) setSelectedService(requested);
+  }, []);
   function submit(event) {
     event.preventDefault();
     const values = new FormData(event.currentTarget);
@@ -28,7 +31,7 @@ export default function ContactForm() {
         <label htmlFor="contact-phone" className="elementor-field-label">Phone</label>
         <input id="contact-phone" name="phone" type="tel" autoComplete="tel" placeholder="Phone" required minLength={5} maxLength={30} className="elementor-field elementor-size-md elementor-field-textual" />
       </div>
-      <div className="elementor-field-group"><label htmlFor="contact-service" className="elementor-field-label">What are you creating?</label><select id="contact-service" name="service" defaultValue={selectedService}><option value="">Select a service (optional)</option>{services.map(item => <option key={item.title}>{item.title}</option>)}</select></div>
+      <div className="elementor-field-group"><label htmlFor="contact-service" className="elementor-field-label">What are you creating?</label><select id="contact-service" name="service" value={selectedService} onChange={event => setSelectedService(event.target.value)}><option value="">Select a service (optional)</option>{services.map(item => <option key={item.title}>{item.title}</option>)}</select></div>
       <div className="elementor-field-type-textarea elementor-field-group elementor-column elementor-col-100">
         <label htmlFor="contact-message" className="elementor-field-label">Message</label>
         <textarea id="contact-message" name="message" rows={4} placeholder="Message" className="elementor-field elementor-size-md elementor-field-textual" />

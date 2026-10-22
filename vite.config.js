@@ -6,6 +6,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         home: resolve(import.meta.dirname, 'index.html'),
+        verticalDrama: resolve(import.meta.dirname, 'vertical-drama-production-house-india/index.html'),
         about: resolve(import.meta.dirname, 'about/index.html'),
         services: resolve(import.meta.dirname, 'services/index.html'),
         gallery: resolve(import.meta.dirname, 'our-gallery/index.html'),
