@@ -18,7 +18,7 @@ export default function SiteHeader() {
     <a className="kc-skip" href="#main-content">Skip to content</a>
     <a className="kc-logo" href="/" aria-label="Kusum Communications home">
       <img src="/wp-content/uploads/2025/07/cropped-Untitled_design__11_-removebg-preview.webp" width="58" height="56" alt="" />
-      <span>Kusum Communication</span>
+      <span>Kusum Communications</span>
     </a>
     <button className="kc-menu-toggle" ref={toggle} aria-expanded={open} aria-controls="kc-navigation" onClick={() => setOpen(!open)}>{open ? 'Close ×' : 'Menu ☰'}</button>
     <nav id="kc-navigation" className={open ? 'kc-nav is-open' : 'kc-nav'} aria-label="Main navigation">
